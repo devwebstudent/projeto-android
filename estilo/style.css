@@ -73,8 +73,8 @@ header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 600px;
-    margin: auto;    
-    padding: 0px 10px;
+    margin: auto;     
+    padding: 0px 10px 50px 10px;
     
 }
 
