@@ -59,23 +59,21 @@ header {
     text-shadow: 2px 2px 0px black;
 }
 
-header > h1 {
+header>h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    
 }
 
-header > p {
+header>p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
     padding: 0px 10px 50px 10px;
-    
 }
 
 nav {
@@ -83,18 +81,17 @@ nav {
     padding: 75px 10px 10px 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
     text-align: center;
-
 }
 
-nav > a {
+nav>a {
     color: var(--cor1);
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-nav > a:hover {
+nav>a:hover {
     color: var(--cor5);
     background-color: var(--cor3);
     transition-duration: 0.5s;
@@ -107,15 +104,15 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 0px 10px 10px;    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
 }
 
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 main h2 {
@@ -136,7 +133,7 @@ main p {
 }
 
 main strong {
-    color: var(--cor4);    
+    color: var(--cor4);
 }
 
 main a {
@@ -161,18 +158,17 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
-    
 }
 
 div.video {
     position: relative;
-    background-color: var(--cor5);    
+    background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 56.5%;    
+    padding-bottom: 56.5%;
 }
 
-div.video > iframe {
+div.video>iframe {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -189,18 +185,20 @@ aside {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
-aside > h3 {
+aside>h3 {
     background-color: var(--cor4);
     color: white;
     text-align: center;
     padding: 10px;
-    margin: -10px -10px 0px -10px; /* aqui utilizamos margem negativa para que o h3 fique encaixado no nosso aside */
-    border-radius: 10px 10px 0px 0px;    
+    margin: -10px -10px 0px -10px;
+    /* aqui utilizamos margem negativa para que o h3 fique encaixado no nosso aside */
+    border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside; /* para as bolinhas ficarem dentro do aside */
+    list-style-position: inside;
+    /* para as bolinhas ficarem dentro do aside */
     columns: 2;
 }
 
@@ -212,7 +210,7 @@ footer {
     padding: 5px;
 }
 
-footer p > a {
+footer p>a {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: none;
