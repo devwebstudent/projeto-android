@@ -59,7 +59,7 @@ header {
     text-shadow: 2px 2px 0px black;
 }
 
-header>h1 {
+header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
@@ -67,7 +67,7 @@ header>h1 {
     margin-bottom: 20px;
 }
 
-header>p {
+header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
@@ -91,7 +91,7 @@ nav>a {
     text-decoration: none;
 }
 
-nav>a:hover {
+nav > a:hover {
     color: var(--cor5);
     background-color: var(--cor3);
     transition-duration: 0.5s;
@@ -185,7 +185,7 @@ aside {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
-aside>h3 {
+aside > h3 {
     background-color: var(--cor4);
     color: white;
     text-align: center;
@@ -195,7 +195,7 @@ aside>h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside>ul {
+aside > ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     /* para as bolinhas ficarem dentro do aside */
@@ -210,7 +210,7 @@ footer {
     padding: 5px;
 }
 
-footer p>a {
+footer p > a {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: none;
